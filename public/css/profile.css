@@ -1,0 +1,51 @@
+.btn{
+    border-radius: 20px!important;
+}
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+   border-left: 3px solid aqua;
+} 
+
+.navbar-brand{
+    color: rgb(88, 160, 241)!important;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.nav{
+    padding: 0px;
+    width: 20%;
+    background-color: rgb(88, 160, 241);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.nav-fill .nav-item{
+    flex: 0 1 auto;
+}
+
+.nav-profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin: 20px 20px;
+}
+
+.nav-item .nav-link{
+    color: white;
+}
+
+.nav-pills .nav-link{
+    border-radius: 0!important;
+}
+
+.justify-content-right{
+    width: 80%;
+}
+
+/* .active{
+    color: #fff;
+    background-color: black!important;
+    border-left-width: 10px;
+    border-left-color: cyan!important;
+} */

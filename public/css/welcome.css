@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Farro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/* welcome.blade.php */
+/* HEADER */
+.nav-item > a{
+    letter-spacing: .1rem;
+}
+
+.navbar-brand{
+    color: rgb(88, 160, 241)!important;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-family: 'Farro', sans-serif;
+}
+
+.links > a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    padding: 0 15px;
+}
+/* CAROUSEL */
+.carousel-item img{
+    height: 80vh;
+}
+
+.carousel-caption{
+    top: 40%;
+}
+
+/* JUNBOTRON */
+.jumbotron{
+    margin-bottom: 0;
+}
+.jumbotron h1{
+    text-align: center;
+}
+
+/* CARD */
+.card img{
+    height: 200px;
+}
+
+/* footer */
+.footer-content{
+    padding: 20px 20px;
+    text-align: center;
+    color: black;
+}
+
+.footer-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-content hr{
+    border-color: rgb(88, 160, 241);
+}
+/* end of welcome.blade.php */
